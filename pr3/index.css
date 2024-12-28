@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.parent {
+  display: flex;
+  background-color: #60a5fa;
+  height: 100vh;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+}
+
+.section {
+  height: 80vh;
+  width: 30%;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+}
+
+.header {
+  font-weight: bold;
+  font-size: larger;
+  text-align: center;
+  border: 2px dotted black;
+}
+
+.add {
+  cursor: pointer;
+}
+
+.tasks {
+  border: 2px dotted white;
+  height: 75vh;
+  width: 95%;
+  margin-bottom: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.task {
+  height: 60px;
+  width: 100px;
+  background-color: antiquewhite;
+  align-content: center;
+  cursor: move;
+}
+
+.task.dragging {
+  opacity: 0.5;
+}

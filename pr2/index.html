@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tech Quiz</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="parent-div">
+      <header>
+        <h1>Tech Quiz</h1>
+      </header>
+      <div class="content">
+        <div class="question-container">
+          <h2 id="question-number">Question 1/5</h2>
+          <div id="question-text"></div>
+          <div class="options-container"></div>
+        </div>
+      </div>
+      <footer id="footer">
+        <button onclick="reloadQuiz()" class="restart-btn">Restart Quiz</button>
+      </footer>
+    </div>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
